@@ -1,9 +1,12 @@
-import React from 'react';
+import "./App.css";
+import Sidebar from "./components/Sidebar";
+import Dashboard from "./components/Dashboard";
 
 function App() {
   return (
-    <div className="text-5xl text-center mt-48">
-      <p>Good Luck!</p>
+    <div className="flex">
+      <Sidebar />
+      <Dashboard />
     </div>
   );
 }

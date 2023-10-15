@@ -1,0 +1,28 @@
+.Animation_Container {
+  position: relative;
+  height: 550px;
+  width: 1000px;
+}
+.Animation_Container > :first-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 1s;
+}
+.Animation_Container > :nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 350px;
+  transition: 1s;
+}
+.Animation_Container > :last-child {
+  position: absolute;
+  top: 0;
+  left: 700px;
+  transition: 1s;
+}
+
+.Animation {
+  transition: transform 1s;
+  background-color: green;
+}
